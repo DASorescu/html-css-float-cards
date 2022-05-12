@@ -1,0 +1,40 @@
+/* general */
+
+*{
+    margin: 0%;
+    border: 0%;
+    margin: 0%;
+
+}
+
+:root{
+--pink:#E43170;
+}
+/* utils */
+
+.container {
+    margin: 0% auto;
+width: 1200px;
+
+}
+
+
+header{
+    margin-top: 70px;
+    color: var(--pink);
+}
+h1{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+
+/*page-header */
+header{
+
+}
+/* page-body */
+body{
+    
+}
