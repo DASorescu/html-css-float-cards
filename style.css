@@ -3,7 +3,7 @@
 *{
     margin: 0%;
     border: 0%;
-    margin: 0%;
+    
 
 }
 
@@ -14,10 +14,36 @@
 
 .container {
     margin: 0% auto;
-width: 1200px;
+    width: 1410px;
 
 }
 
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    
+    float: left;
+    
+}
+
+.float-right{
+    float: right;
+}
+.card{
+    width: calc(100% / 3);
+    text-align: left;
+    color: #fff;
+    background-color: black;
+}
+
+.card-info{
+    margin: 10px auto;
+}
+/*page-header */
 
 header{
     color: var(--pink);
@@ -28,17 +54,36 @@ h1{
     
 }
 
-
-/*page-header */
-header{
-
+.page-team-info{
+    margin-top: 70px;
 }
+
+
+
 /* page-body */
 body{
+    text-align: center;
     margin-top: 70px;
     font-family: 'Fredoka', sans-serif;
 }
 main{
+    width: 100%;
+    margin:100px auto;
     text-align: center;
-    margin-top: 50px;
+    
+}
+
+img{
+    height: 130px;
+    margin-right: 10px;
+}
+
+.block{
+    display: block;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    color: #36A0D2;
 }
