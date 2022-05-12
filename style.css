@@ -34,10 +34,13 @@
     float: right;
 }
 .card{
-    width: calc(100% / 3);
+    display: inline-block;
+    width: calc(100% / 3 - 30px);
     text-align: left;
     color: #fff;
     background-color: black;
+    margin-top: 10px;
+    margin-left: calc(100% / 3 -5px) ;
 }
 
 .card-info{
