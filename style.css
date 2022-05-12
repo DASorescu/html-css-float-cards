@@ -20,7 +20,6 @@ width: 1200px;
 
 
 header{
-    margin-top: 70px;
     color: var(--pink);
 }
 h1{
@@ -36,5 +35,10 @@ header{
 }
 /* page-body */
 body{
-    
+    margin-top: 70px;
+    font-family: 'Fredoka', sans-serif;
+}
+main{
+    text-align: center;
+    margin-top: 50px;
 }
